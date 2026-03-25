@@ -19,7 +19,7 @@ See my work & research experiences.
       <div class = "experience-image">
         <img
           class = "img-fluid"
-          src = "images/~~"
+          src = "images/logo.svg"
           alt = "Image"
           />
       </div>
