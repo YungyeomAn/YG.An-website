@@ -15,7 +15,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include button.html
-  link="research"
+  link="experience"
   text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -27,7 +27,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="research"
+  link="experience"
   title="Our Research"
   text=text
 %}
@@ -63,7 +63,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include button.html
-  link="team"
+  link="about"
   text="Meet our team"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -75,7 +75,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="team"
+  link="about"
   title="Our Team"
   text=text
 %}
