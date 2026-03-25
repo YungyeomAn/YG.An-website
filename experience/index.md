@@ -108,7 +108,6 @@ See my work & research experiences.
 
 </div>
 
-<!--
 <style>
 /* 전체 폭 제한 */
 .exp-container {
@@ -142,13 +141,13 @@ See my work & research experiences.
 
 /* 제목 */
 .exp-title {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
 }
 
 /* 한 줄 요약 */
 .exp-summary {
-  font-size: 14px;
+  font-size:16px;
   color: #666;
 }
 
@@ -159,7 +158,7 @@ See my work & research experiences.
 
 /* 본문 */
 .exp-body {
-  font-size: 14px;
+  font-size: 16px;
   color: #444;
   line-height: 1.6;
 }
