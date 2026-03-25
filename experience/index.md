@@ -14,69 +14,151 @@ See my work & research experiences.
 
 ## Research Experience
 
-<div class="experience-container">
-  
-  <!-- 왼쪽 탭 -->
-  <div class="experience-tabs">
-    <button class="tab active" onclick="openTab(event, 'lab1')">Lab A</button>
-    <button class="tab" onclick="openTab(event, 'lab2')">Lab B</button>
-    <button class="tab" onclick="openTab(event, 'lab3')">Lab C</button>
-    <button class="tab" onclick="openTab(event, 'lab4')">Lab D</button>
-    <button class="tab" onclick="openTab(event, 'lab5')">Lab E</button>
-    <button class="tab" onclick="openTab(event, 'intern')">MSIT Intern</button>
+<div class="exp-item">
+  <div class="exp-header" onclick="toggleExp(this)">
+    <strong>Lab A, XXX University (3 months)</strong><br>
+    <span class="exp-summary">
+      Polymer thin film deposition via iCVD; analyzed interfacial adhesion
+    </span>
+    <span class="exp-toggle">[+]</span>
   </div>
 
-  <!-- 오른쪽 내용 -->
-  <div class="experience-content">
-    
-    <div id="lab1" class="tab-content active">
-      <h3>Lab A (3 months)</h3>
-      <p>Polymer thin film deposition via iCVD; analyzed interfacial adhesion.</p>
-    </div>
+  <div class="exp-details">
+    <p><strong>Problem</strong><br>
+    Understanding adhesion behavior in polymer thin films</p>
 
-    <div id="lab2" class="tab-content">
-      <h3>Lab B (4 months)</h3>
-      <p>Designed physically crosslinked hydrogel networks for adaptive adhesion.</p>
-    </div>
+    <p><strong>Approach</strong><br>
+    Deposited films via iCVD and analyzed interfacial interactions</p>
 
-    <div id="lab3" class="tab-content">
-      <h3>Lab C</h3>
-      <p>Nanomaterial-based system for biomedical interface studies.</p>
-    </div>
-
-    <div id="lab4" class="tab-content">
-      <h3>Lab D</h3>
-      <p>Surface/interface engineering with polymer coatings.</p>
-    </div>
-
-    <div id="lab5" class="tab-content">
-      <h3>Lab E</h3>
-      <p>Functional thin film design and characterization.</p>
-    </div>
-
-    <div id="intern" class="tab-content">
-      <h3>Ministry of Science and ICT (Intern, 2026–Present)</h3>
-      <p>Exploring science policy and the interface between research and application.</p>
-    </div>
-
+    <p><strong>Insight</strong><br>
+    Identified key parameters governing adhesion under varying conditions</p>
   </div>
 </div>
 
+
+<div class="exp-item">
+  <div class="exp-header" onclick="toggleExp(this)">
+    <strong>Lab B, XXX Institute (4 months)</strong><br>
+    <span class="exp-summary">
+      Designed physically crosslinked hydrogel networks for adaptive adhesion
+    </span>
+    <span class="exp-toggle">[+]</span>
+  </div>
+
+  <div class="exp-details">
+    <p><strong>Problem</strong><br>
+    Designing hydrogels with both adhesion and flexibility</p>
+
+    <p><strong>Approach</strong><br>
+    Developed physically crosslinked polymer networks</p>
+
+    <p><strong>Insight</strong><br>
+    Revealed relationship between network structure and adhesion behavior</p>
+  </div>
+</div>
+
+
+<div class="exp-item">
+  <div class="exp-header" onclick="toggleExp(this)">
+    <strong>Ministry of Science and ICT (Intern, 2026–Present)</strong><br>
+    <span class="exp-summary">
+      Exploring science policy and research–application interface
+    </span>
+    <span class="exp-toggle">[+]</span>
+  </div>
+
+  <div class="exp-details">
+    <p><strong>Context</strong><br>
+    Science & technology policy environment</p>
+
+    <p><strong>Focus</strong><br>
+    Examining how research translates into real-world applications</p>
+
+    <p><strong>Perspective</strong><br>
+    Gaining insight into the broader impact of scientific research</p>
+  </div>
+</div>
+
+<!-- CSS -->
+<style>
+.exp-item {
+  margin-bottom: 25px;
+}
+
+.exp-header {
+  cursor: pointer;
+  position: relative;
+}
+
+.exp-summary {
+  color: #555;
+}
+
+.exp-toggle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #888;
+}
+
+.exp-details {
+  display: none;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-left: 2px solid #ddd;
+}
+
+.exp-details p {
+  margin: 5px 0;
+}
+</style>
+
+<style>
+.exp-item {
+  margin-bottom: 25px;
+}
+
+.exp-header {
+  cursor: pointer;
+  position: relative;
+}
+
+.exp-summary {
+  color: #555;
+}
+
+.exp-toggle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #888;
+}
+
+.exp-details {
+  display: none;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-left: 2px solid #ddd;
+}
+
+.exp-details p {
+  margin: 5px 0;
+}
+</style>
+
+<!--Javascript-->
 <script>
-function openTab(evt, tabName) {
-  const contents = document.getElementsByClassName("tab-content");
-  const tabs = document.getElementsByClassName("tab");
+function toggleExp(element) {
+  const details = element.nextElementSibling;
+  const toggle = element.querySelector(".exp-toggle");
 
-  for (let i = 0; i < contents.length; i++) {
-    contents[i].classList.remove("active");
+  if (details.style.display === "block") {
+    details.style.display = "none";
+    toggle.textContent = "[+]";
+  } else {
+    details.style.display = "block";
+    toggle.textContent = "[-]";
   }
-
-  for (let i = 0; i < tabs.length; i++) {
-    tabs[i].classList.remove("active");
-  }
-
-  document.getElementById(tabName).classList.add("active");
-  evt.currentTarget.classList.add("active");
 }
 </script>
 
