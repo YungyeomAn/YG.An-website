@@ -14,6 +14,15 @@ See my work & research experiences.
 
 ## Research Experience
 
+<div class="container">
+
+  <h2>Research Experience</h2>
+
+  <p>
+    Experience in polymer thin films, hydrogels, and interface engineering...
+  </p>
+</div>
+
 <details>
   <summary>
     <strong>Lab A, XXX University (3 months)</strong><br>
@@ -57,25 +66,4 @@ details[open] summary {
 {% include section.html %}
 
 ## All
-
-
-<details>
-  <summary>
-    <strong>Lab A, XXX University (3 months)</strong><br>
-    Polymer thin film deposition via iCVD; analyzed interfacial adhesion
-  </summary>
-
-  <p><strong>Problem</strong><br>
-  Understanding adhesion behavior in polymer thin films</p>
-
-  <p><strong>Approach</strong><br>
-  Deposited films via iCVD and analyzed interfacial interactions</p>
-
-  <p><strong>Insight</strong><br>
-  Identified key parameters governing adhesion</p>
-</details>
-
-{% include search-box.html %}
-
-{% include search-info.html %}
 
