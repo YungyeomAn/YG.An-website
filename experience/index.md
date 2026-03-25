@@ -30,10 +30,10 @@ See my work & research experiences.
           Jun2022 — Feb 2023, Oct 2025 — Present (15 months) </br>
           Undergraduate researcher, Researcher (supervised by Prof. Kimoon Kim, Prof. Ilha Hwang)</br>
         </span>
-      </div>
       <span class="exp-summary">
         Programmable chemical pattern for out-of-equilibrium supramolecular-assembly and polymer material systems.
       </span>
+      </div>
     </summary>
     <div class="exp-body">
       <p class="exp-section-title">Problem</p>
