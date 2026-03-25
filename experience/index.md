@@ -16,12 +16,13 @@ See my work & research experiences.
   <!-- Lab 1 -->
   <details class = "exp-card research">
     <summary class = "exp-header">
-      <div class = "experience-image">
-        <img
-          class = "img-fluid"
-          src = "/images/icon.png"
-          alt = "Image"
-          />
+      <div class="exp-row">
+        <div class = "experience-image">
+          <img
+            src = "/images/icon.png"
+            alt = "Image"
+            />
+        </div>
       </div>
       <div class="experience-info">
         <div class="exp-title">
@@ -113,6 +114,20 @@ See my work & research experiences.
 
 
 <style>
+
+ .exp-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+/* 이미지 */
+.experience-image img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+  
 /* 전체 폭 제한 */
 .exp-container {
   max-width: 800px;
@@ -150,14 +165,11 @@ See my work & research experiences.
   font-weight: 600;
 }
 
-/* 한 줄 요약 */
-/*
-.exp-info {
-  font-size:16px;
-  color: #600;
+/* 텍스트 영역 */
+.experience-info {
+  flex: 1;
 }
-*/
-
+  
 .exp-summary {
   font-size:16px;
   color: #666;
