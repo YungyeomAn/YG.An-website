@@ -33,6 +33,7 @@ See my work & research experiences.
         <div class="exp-role">
           Undergraduate researcher, Researcher
         </div>
+      </div>
     </summary>
     <div class="exp-body">
       <p class="exp-section-title">Problem</p>
