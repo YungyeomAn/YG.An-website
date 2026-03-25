@@ -11,59 +11,172 @@ See my work & research experiences.
 
 ## Professional Experience
 
-
-## Research Experience
-
-<div class="container">
+<div class="exp-container">
 
   <h2>Research Experience</h2>
 
-  <p>
-    Experience in polymer thin films, hydrogels, and interface engineering...
-  </p>
+  <!-- Lab 1 -->
+  <details class="exp-card research">
+    <summary class="exp-header">
+      <strong class="exp-title">Polymer Thin Film Lab, XXX University (3 months)</strong><br>
+      <span class="exp-summary">
+        Polymer thin film deposition via iCVD; analyzed interfacial adhesion
+      </span>
+    </summary>
+
+    <div class="exp-body">
+      <p class="exp-section-title">Problem</p>
+      <p>
+        Understanding adhesion behavior in polymer thin films under varying conditions.
+      </p>
+
+      <p class="exp-section-title">Approach</p>
+      <p>
+        Deposited polymer thin films via initiated chemical vapor deposition (iCVD) and characterized interfacial interactions.
+      </p>
+
+      <p class="exp-section-title">Insight</p>
+      <p>
+        Identified key parameters governing adhesion performance and their dependence on deposition conditions.
+      </p>
+    </div>
+  </details>
+
+
+  <!-- Lab 2 -->
+  <details class="exp-card research">
+    <summary class="exp-header">
+      <strong class="exp-title">Soft Materials Lab, XXX Institute (4 months)</strong><br>
+      <span class="exp-summary">
+        Designed physically crosslinked hydrogel networks for adaptive adhesion
+      </span>
+    </summary>
+
+    <div class="exp-body">
+      <p class="exp-section-title">Problem</p>
+      <p>
+        Developing hydrogel systems that balance strong adhesion with mechanical adaptability.
+      </p>
+
+      <p class="exp-section-title">Approach</p>
+      <p>
+        Designed and synthesized physically crosslinked polymer networks and evaluated their viscoelastic and adhesive properties.
+      </p>
+
+      <p class="exp-section-title">Insight</p>
+      <p>
+        Revealed how network structure influences adhesion performance under dynamic conditions.
+      </p>
+    </div>
+  </details>
+
+
+  <h2 style="margin-top:40px;">Professional Experience</h2>
+
+  <!-- Internship -->
+  <details class="exp-card professional">
+    <summary class="exp-header">
+      <strong class="exp-title">Ministry of Science and ICT (Intern, 2026–Present)</strong><br>
+      <span class="exp-summary">
+        Exploring science policy and the interface between research and application
+      </span>
+    </summary>
+
+    <div class="exp-body">
+      <p class="exp-section-title">Context</p>
+      <p>
+        Working within a national science and technology policy environment.
+      </p>
+
+      <p class="exp-section-title">Focus</p>
+      <p>
+        Examining how fundamental research translates into real-world applications and policy decisions.
+      </p>
+
+      <p class="exp-section-title">Perspective</p>
+      <p>
+        Gaining insight into the broader impact of scientific research beyond the laboratory.
+      </p>
+    </div>
+  </details>
+
 </div>
 
-<details>
-  <summary>
-    <strong>Lab A, XXX University (3 months)</strong><br>
-    Polymer thin film deposition via iCVD; analyzed interfacial adhesion
-  </summary>
-
-  <p><strong>Problem</strong><br>
-  Understanding adhesion behavior in polymer thin films</p>
-
-  <p><strong>Approach</strong><br>
-  Deposited films via iCVD and analyzed interfacial interactions</p>
-
-  <p><strong>Insight</strong><br>
-  Identified key parameters governing adhesion</p>
-</details>
-
 <style>
-summary {
+/* 전체 폭 제한 */
+.exp-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* 카드 */
+.exp-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 18px;
+  background: #fafafa;
+  transition: 0.2s;
+}
+
+.exp-card:hover {
+  background: #f5f5f5;
+}
+
+/* 헤더 */
+.exp-header {
   cursor: pointer;
   list-style: none;
 }
 
-summary::marker {
+.exp-header::-webkit-details-marker {
   display: none;
 }
-</style>
-<style>
-details {
-  margin-bottom: 20px;
+
+/* 제목 */
+.exp-title {
+  font-size: 16px;
+  font-weight: 600;
 }
 
-details[open] summary {
+/* 한 줄 요약 */
+.exp-summary {
+  font-size: 14px;
+  color: #666;
+}
+
+/* 열렸을 때 간격 */
+.exp-card[open] .exp-header {
   margin-bottom: 10px;
 }
+
+/* 본문 */
+.exp-body {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* 섹션 제목 */
+.exp-section-title {
+  font-weight: 600;
+  margin-top: 10px;
+  color: #111;
+}
+
+/* Research vs Professional 구분 */
+.research {
+  border-left: 4px solid #ddd;
+}
+
+.professional {
+  border-left: 4px solid #bbb;
+}
+
+/* 제목 스타일 */
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
 </style>
-
-## Highlighted
-
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
-
-{% include section.html %}
-
-## All
-
