@@ -1,8 +1,8 @@
 ---
-title: Blog
+title: Personal
 nav:
   order: 4
-  tooltip: Musings and miscellany
+  tooltip: Fun facts on me
 ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
