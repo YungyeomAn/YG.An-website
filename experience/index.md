@@ -2,7 +2,7 @@
 title: Experience
 nav:
   order: 2
-  tooltip: Published works
+  tooltip: Research & work experiences
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
