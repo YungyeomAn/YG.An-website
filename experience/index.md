@@ -170,6 +170,23 @@ function toggleExp(element) {
 
 ## All
 
+
+<details>
+  <summary>
+    <strong>Lab A, XXX University (3 months)</strong><br>
+    Polymer thin film deposition via iCVD; analyzed interfacial adhesion
+  </summary>
+
+  <p><strong>Problem</strong><br>
+  Understanding adhesion behavior in polymer thin films</p>
+
+  <p><strong>Approach</strong><br>
+  Deposited films via iCVD and analyzed interfacial interactions</p>
+
+  <p><strong>Insight</strong><br>
+  Identified key parameters governing adhesion</p>
+</details>
+
 {% include search-box.html %}
 
 {% include search-info.html %}
