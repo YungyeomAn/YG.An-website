@@ -14,33 +14,41 @@ See my work & research experiences.
   <h2>Research Experience</h2>
 
   <!-- Lab 1 -->
-  <details class="exp-card research">
-    <summary class="exp-header">
-      <strong class="exp-title">Polymer Thin Film Lab, XXX University (3 months)</strong><br>
+  <details class = "exp-card research">
+    <summary class = "exp-header">
+      <div class = "experience-image">
+        <img
+          class = "img-fluid"
+          src = "images/~~"
+          alt = "Image"
+          />
+      </div>
+      <div class="exprience-info">
+        <h3>Center for Self-assembly and Complexity (CSC)</h3>
+        <h4>Jun2022 — Feb 2023, Oct 2025 — Present (15 months)</h4>
+        <h4>Undergraduate researcher, Researcher (supervised by Prof. Kimoon Kim, Ilha Hwang)</h4>
+      </div>
       <span class="exp-summary">
-        Polymer thin film deposition via iCVD; analyzed interfacial adhesion
+        Programmable chemical pattern for out-of-equilibrium supramolecular-assembly and polymer material systems.
       </span>
     </summary>
-
     <div class="exp-body">
       <p class="exp-section-title">Problem</p>
       <p>
         Understanding adhesion behavior in polymer thin films under varying conditions.
       </p>
-
       <p class="exp-section-title">Approach</p>
       <p>
         Deposited polymer thin films via initiated chemical vapor deposition (iCVD) and characterized interfacial interactions.
       </p>
-
       <p class="exp-section-title">Insight</p>
       <p>
         Identified key parameters governing adhesion performance and their dependence on deposition conditions.
       </p>
     </div>
   </details>
-
-
+  <hr />
+  
   <!-- Lab 2 -->
   <details class="exp-card research">
     <summary class="exp-header">
@@ -100,6 +108,7 @@ See my work & research experiences.
 
 </div>
 
+<!--
 <style>
 /* 전체 폭 제한 */
 .exp-container {
@@ -178,3 +187,4 @@ h2 {
   margin-bottom: 12px;
 }
 </style>
+-->
