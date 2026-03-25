@@ -153,10 +153,13 @@ See my work & research experiences.
 }
 
 /* 한 줄 요약 */
+<!--
 .exp-info {
   font-size:16px;
   color: #600;
 }
+-->
+
 .exp-summary {
   font-size:16px;
   color: #666;
