@@ -24,9 +24,12 @@ See my work & research experiences.
           />
       </div>
       <div class="exprience-info">
-        <h3>Center for Self-assembly and Complexity (CSC)</h3>
-        <h4>Jun2022 — Feb 2023, Oct 2025 — Present (15 months)</h4>
-        <h4>Undergraduate researcher, Researcher (supervised by Prof. Kimoon Kim, Ilha Hwang)</h4>
+        <strong class="exp-title">
+          Center for Self-assembly and Complexity (CSC)</br>
+        <span class="exp-period">
+          Jun2022 — Feb 2023, Oct 2025 — Present (15 months) </br>
+          Undergraduate researcher, Researcher (supervised by Prof. Kimoon Kim, Prof. Ilha Hwang)</br>
+        </span>
       </div>
       <span class="exp-summary">
         Programmable chemical pattern for out-of-equilibrium supramolecular-assembly and polymer material systems.
@@ -108,6 +111,7 @@ See my work & research experiences.
 
 </div>
 
+
 <style>
 /* 전체 폭 제한 */
 .exp-container {
@@ -115,7 +119,8 @@ See my work & research experiences.
   margin: 0 auto;
 }
 
-/* 카드 */
+<!--
+  /* 카드 */
 .exp-card {
   border: 1px solid #e5e5e5;
   border-radius: 10px;
@@ -124,10 +129,12 @@ See my work & research experiences.
   background: #fafafa;
   transition: 0.2s;
 }
+-->
 
 .exp-card:hover {
   background: #f5f5f5;
 }
+
 
 /* 헤더 */
 .exp-header {
@@ -146,6 +153,10 @@ See my work & research experiences.
 }
 
 /* 한 줄 요약 */
+.exp-info {
+  font-size:16px;
+  color: #600;
+}
 .exp-summary {
   font-size:16px;
   color: #666;
