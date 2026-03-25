@@ -9,8 +9,6 @@ nav:
 
 See my work & research experiences.
 
-## Professional Experience
-
 <div class="exp-container">
 
   <h2>Research Experience</h2>
