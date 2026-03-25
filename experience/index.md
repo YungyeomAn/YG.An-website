@@ -24,16 +24,15 @@ See my work & research experiences.
           />
       </div>
       <div class="experience-info">
-        <strong class="exp-title">
-          Center for Self-assembly and Complexity (CSC) </strong><br>
-        <span class="exp-period">
-          Jun2022 — Feb 2023, Oct 2025 — Present (15 months) <br>
-          Undergraduate researcher, Researcher (supervised by Prof. Kimoon Kim, Prof. Ilha Hwang)<br>
-        </span>
-      <span class="exp-summary">
-        Programmable chemical pattern for out-of-equilibrium supramolecular-assembly and polymer material systems.
-      </span>
-      </div>
+        <div class="exp-title">
+          Center for Self-assembly and Complexity (CSC)
+        </div>
+        <div class="exp-period">
+          Jun 2022 — Feb 2023, Oct 2025 — Present
+        </div>
+        <div class="exp-role">
+          Undergraduate researcher, Researcher
+        </div>
     </summary>
     <div class="exp-body">
       <p class="exp-section-title">Problem</p>
