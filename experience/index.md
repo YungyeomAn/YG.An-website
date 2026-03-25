@@ -23,9 +23,9 @@ See my work & research experiences.
           alt = "Image"
           />
       </div>
-      <div class="exprience-info">
+      <div class="experience-info">
         <strong class="exp-title">
-          Center for Self-assembly and Complexity (CSC)</br>
+          Center for Self-assembly and Complexity (CSC) </strong></br>
         <span class="exp-period">
           Jun2022 — Feb 2023, Oct 2025 — Present (15 months) </br>
           Undergraduate researcher, Researcher (supervised by Prof. Kimoon Kim, Prof. Ilha Hwang)</br>
@@ -153,12 +153,12 @@ See my work & research experiences.
 }
 
 /* 한 줄 요약 */
-<!--
+/*
 .exp-info {
   font-size:16px;
   color: #600;
 }
--->
+*/
 
 .exp-summary {
   font-size:16px;
@@ -200,4 +200,3 @@ h2 {
   margin-bottom: 12px;
 }
 </style>
--->
