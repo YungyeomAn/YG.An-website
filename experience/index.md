@@ -119,17 +119,15 @@ See my work & research experiences.
   margin: 0 auto;
 }
 
-<!--
   /* 카드 */
 .exp-card {
-  border: 1px solid #e5e5e5;
+  /* border: 1px solid #e5e5e5;
   border-radius: 10px;
   padding: 16px;
-  margin-bottom: 18px;
+  margin-bottom: 18px; */
   background: #fafafa;
   transition: 0.2s;
 }
--->
 
 .exp-card:hover {
   background: #f5f5f5;
